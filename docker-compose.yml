@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  onnx:
+    build: .
+    container_name: onnxruntime-sample
+    tty: true
+    volumes:
+      - type: bind
+        source: ./workspace
+        target: /workspace
+    working_dir: /workspace
