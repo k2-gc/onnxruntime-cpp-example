@@ -1,8 +1,8 @@
 # onnxruntime-cpp-example
 
 ## Introduction
-This repository introduces how to run onnx model using onnxruntime C++ API showing simple example.
-Using sample MNIST dataset, code shows inference results.
+This repository introduces how to run onnx model using onnxruntime C++ API. 
+Using sample MNIST data, the code shows a simple example and inference results.
 
 ## Prerequisites
 * Docker
